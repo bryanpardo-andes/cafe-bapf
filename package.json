@@ -9,6 +9,9 @@
     "test": "ng test"
   },
   "private": true,
+  "overrides": {
+    "@types/node": "18.19.64"
+  },
   "dependencies": {
     "@angular/animations": "^14.0.0",
     "@angular/common": "^14.0.0",
@@ -27,6 +30,7 @@
     "@angular/cli": "~14.0.2",
     "@angular/compiler-cli": "^14.0.0",
     "@types/jasmine": "~4.0.0",
+    "@types/node": "18.19.64",
     "jasmine-core": "~4.1.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
