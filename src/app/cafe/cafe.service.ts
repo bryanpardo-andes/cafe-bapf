@@ -4,9 +4,7 @@ import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { Cafe } from './cafe';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class CafeService {
   private apiUrl = environment.apiUrl;
 
